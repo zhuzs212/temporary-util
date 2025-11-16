@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzs.temporaryutil.mapper.GovOrgRelationMapper">
+
+<!--    <resultMap id="BaseResultMap" type="com.jmkj.znyd.temporaryutil.entity.domain.GovOrgRelation">-->
+<!--            <id property="id" column="id" jdbcType="VARCHAR"/>-->
+<!--            <result property="orgId" column="org_id" jdbcType="VARCHAR"/>-->
+<!--            <result property="staId" column="sta_id" jdbcType="VARCHAR"/>-->
+<!--            <result property="hlhtId" column="hlht_id" jdbcType="VARCHAR"/>-->
+<!--            <result property="createdTime" column="created_time" jdbcType="TIMESTAMP"/>-->
+<!--            <result property="updatedTime" column="updated_time" jdbcType="TIMESTAMP"/>-->
+<!--            <result property="createdBy" column="created_by" jdbcType="VARCHAR"/>-->
+<!--            <result property="updatedBy" column="updated_by" jdbcType="VARCHAR"/>-->
+<!--    </resultMap>-->
+
+<!--    <sql id="Base_Column_List">-->
+<!--        id,org_id,sta_id,-->
+<!--        hlht_id,created_time,updated_time,-->
+<!--        created_by,updated_by-->
+<!--    </sql>-->
+
+<!--    <select id="selectByStaId" resultMap="BaseResultMap">-->
+<!--        select-->
+<!--            <include refid="Base_Column_List"/>-->
+<!--        from sc_comm.t_gov_org_relation-->
+<!--        where sta_id = #{staId}-->
+<!--    </select>-->
+</mapper>
