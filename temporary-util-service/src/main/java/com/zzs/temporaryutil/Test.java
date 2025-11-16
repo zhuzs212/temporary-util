@@ -28,6 +28,8 @@ public class Test {
             System.out.println(ssq);
         }
 
+        // 主分支 也操作了这里，创造冲突
+
     }
 
     // 随机
