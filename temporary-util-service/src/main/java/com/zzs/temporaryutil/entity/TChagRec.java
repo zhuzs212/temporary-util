@@ -17,17 +17,17 @@ import java.io.Serializable;
 @ExcelTarget("tChagRec")
 public class TChagRec implements Serializable {
 
-//    /**
-//     * 厂家标识
-//     */
-//    @Excel(name = "商户编号")
-//    private String factId;
-//
-//    /**
-//     * 充电用户标识
-//     */
-//    @Excel(name = "用户id")
-//    private String userId;
+    /**
+     * 厂家标识
+     */
+    @Excel(name = "商户编号")
+    private String factId;
+
+    /**
+     * 充电用户标识
+     */
+    @Excel(name = "用户id")
+    private String userId;
 
     /**
      * 充电卡号
